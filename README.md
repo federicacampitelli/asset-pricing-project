@@ -29,11 +29,12 @@ A deep-dive theoretical analysis reviewing standard consumption-based models (CR
 
 ## Repository Contents
 * `asset_pricing_analysis.m`: The full MATLAB script containing data importing, statistical analysis, and portfolio optimization algorithms.
-* `asset_pricing_report.pdf`: The final comprehensive report discussing both the empirical findings and the theoretical asset pricing derivations.
+* `dataexam_jan26.xlsx`: The Excel dataset containing the raw financial data required to run the analysis.
 
 ## How to Run
-1. Open `asset_pricing_analysis.m` in MATLAB.
-2. Run the code sequentially following the section index at the top of the file (the script is divided into parts to avoid memory overload).
+1. Download all files in the repository, keeping them in the same folder — the script requires `dataexam_jan26.xlsx` to be in the same directory to load the data correctly.
+2. Open `asset_pricing_analysis.m` in MATLAB.
+3. Run the code sequentially following the section index at the top of the file (the script is divided into parts to avoid memory overload).
 
 ## Technologies Used
 * **MATLAB** (Data Analysis, Financial Toolbox, Statistics and Machine Learning Toolbox)
